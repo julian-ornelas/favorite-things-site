@@ -5,19 +5,36 @@ body {
 .primary {
     color: #241E4E;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
 }
 
 .secondary {
     color: #016064;
+    font-size: 1.5rem;
 }
 
 .callout {
     color: #960200
 }
 
-section {
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+article {
+    background-color: #FFF5EE;
+    border: solid;
+    padding: 1.5rem;
+    flex-grow: 1;
 }

@@ -1,6 +1,10 @@
+/* Main background color */
+
 body {
     background-color: #F0F7F4;
 }
+
+/* Text colors */
 
 .primary {
     color: #241E4E;
@@ -17,6 +21,7 @@ body {
     color: #960200
 }
 
+/* Flexboxes for each section and item */
 
 .header-section {
     display: flex;
@@ -29,8 +34,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 1.5rem;
+    gap: 1rem;
 }
 
 .container {
@@ -61,12 +68,16 @@ body {
     }
 }
 
+/* Background color for each section */
+
 article {
     display: flex;
     background-color: #FFF5EE;
     border: solid;
     padding: 1.5rem;
 }
+
+/* Gets images into good size for .items flexbox */
 
 img {
     max-width: 30%;

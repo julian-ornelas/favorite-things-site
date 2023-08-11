@@ -1,6 +1,6 @@
 /* Main background color */
 
-body {
+.body-bg {
     background-color: #F0F7F4;
 }
 
@@ -72,9 +72,12 @@ body {
 
 article {
     display: flex;
-    background-color: #FFF5EE;
     border: solid;
     padding: 1.5rem;
+}
+
+.basis {
+    background-color: #FFF5EE;
 }
 
 /* Gets images into good size for .items flexbox */
